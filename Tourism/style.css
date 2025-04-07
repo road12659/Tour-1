@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Home Styling */
+
+header{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 5%;
+    height: 5%;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-left: 30px;
+}
+
+nav a{
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: rgb(112, 207, 112);
+}
+
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.ref{
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: rgb(185, 139, 25);
+    border: 0;
+    color: rgb(219, 226, 232);
+    border-radius: 3px;
+}
+
+.sec{
+    background-color: rgb(196, 202, 185);
+    padding: 30px;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.section img{
+    margin-left: 50%;
+    width: 40%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.main{
+    text-align: center;
+    padding: 10px;
+    /* margin-top: 50px; */
+}
+
+.body{
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.body img{
+    width: 80px;
+    height: 80px;
+}
+
+.dis{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.dis img{
+    width: 50%;
+    height: 50%;
+}
+
+.page{
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(42, 185, 42);
+    padding: 20px;
+}
+
+.foot{
+    display: flex;
+    gap: 50px;
+}
+
+.foot h3{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.feet ol{
+    text-align: center;
+    list-style: none;
+}
+
+.table input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Explore Styling*/
+.tats{
+    text-align: center;
+}
+
+.dishes{
+    padding: 50px;
+    text-align: center;
+}
+
+.dishes h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.attrat{
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.attrat img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.attrat h3{
+    margin-bottom: 10px
+}
+
+/* Plan Styling */
+.plan{
+    padding: 50px;
+    text-align: center;
+}
+
+.plan h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.plans{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.plane{
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.plane img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Contact Us */
+.cont h1{
+    text-align: center;
+}
+
+.cont p{
+    text-align: center;
+    font-size: 20px;
+}
+
+span{
+    color: rgb(121, 171, 21);
+}
+
+.spec h1{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.spec p{
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.spec img{
+    width: 50%;
+    height: auto;
+    border-radius: 1em;
+    margin-left: 100px;
+}
+
+form{
+    padding: 10px;
+}
+
+.labs label{
+    font-size: 20px;
+}
+
+.labs input{
+    border: 1px solid rgb(140, 135, 135);
+    border-radius: 5px;
+    width: 18%;
+    padding: 10px;
+}
+
+.sub{
+    padding: 0;
+    width: 30px;
+    height: auto;
+    color: white;
+    background-color: rgb(41, 160, 41);
+}
