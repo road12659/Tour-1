@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --primary-color: rgb(202, 100, 100);
+    --primary-color: rgb(67, 135, 54);
     --food-color: yellow;
     --stage-color: green;
     --secondary-color: rgb(11, 19, 13);
@@ -15,11 +15,42 @@ header{
     background-color: var(--primary-color);
 }
 
+.hamburger-menu{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger-menu .line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3 ease;
+}
+
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
     font-family: Arial, sans-serif;
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 .navbar{
@@ -46,6 +77,53 @@ header{
 
 .nav-links a:hover {
     color: #ffffff;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .hamburger-menu{
+        display: flex;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav-links.active{
+        transform: translateX(0);
+    }
+
+    .nav-links li{
+        margin: 15px 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .nav-links.active li{
+        opacity: 1;
+    }
+
+    .harmburger-menu.active .line:nth-child(1) {
+        transform: translateY(11px) rotate(45deg);
+    }
+
+    .harmburger-menu.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .harmburger-menu.active .line:nth-child(3){
+        transform: translateY(-11px) rotate(-45deg);
+    }
 }
 
 section.home{
