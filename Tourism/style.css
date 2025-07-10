@@ -80,7 +80,7 @@ header{
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .hamburger-menu{
         display: flex;
     }
@@ -123,6 +123,17 @@ header{
 
     .harmburger-menu.active .line:nth-child(3){
         transform: translateY(-11px) rotate(-45deg);
+    }
+
+    section.home{
+        padding: 80px 20px;
+        min-height: 80vh;
+    }
+
+    .home h1{
+        font-size: 32px;
+        margin-bottom: 15px;
+        line-height: 1.1;
     }
 }
 
