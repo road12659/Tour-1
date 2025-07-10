@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --primary-color: rgb(81, 24, 24);
-    --secondary-color: rgb(129, 129, 207);
+    --primary-color: rgb(202, 100, 100);
+    --food-color: yellow;
+    --stage-color: green;
+    --secondary-color: rgb(11, 19, 13);
     --text-color: white;
 }
 
@@ -13,7 +15,36 @@ header{
     background-color: var(--primary-color);
 }
 
-.navbar{
-    display: flex;
-    padding: 1em 3em;
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: Arial, sans-serif;
+    color: blue;
 }
+
+.navbar{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: var(--text-color);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
