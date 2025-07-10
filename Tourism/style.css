@@ -48,3 +48,19 @@ header{
     color: #ffffff;
 }
 
+section.home{
+    box-sizing: border-box;
+    padding: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)) url(Tourism/jollof-rice.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
