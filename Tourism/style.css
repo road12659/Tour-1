@@ -68,3 +68,24 @@ section.home{
     font-size: 4em;
     font-family: sans-serif;
 }
+
+.home p{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+button.explor{
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 3em;
+    color: green;
+}
+
+button.explor:hover{
+    color: white;
+    background-color: green;
+    animation: ease-in 0.3s;
+    cursor: pointer;
+}
