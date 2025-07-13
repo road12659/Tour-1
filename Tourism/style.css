@@ -127,6 +127,13 @@ button.explor:hover{
     cursor: pointer;
 }
 
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* Dishes section  */
 
 .dishes-grid{
