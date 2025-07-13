@@ -149,9 +149,9 @@ button.explor:hover{
 /* Dishes section  */
 
 .dishes-grid{
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px; */
+    gap: 30px;
 }
 
 .dishes-card{
