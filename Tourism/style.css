@@ -1,12 +1,17 @@
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --card-color: #f9f9f9;
+    --bg-color: #fff;
+    --text-color: #333;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0,1);
+    transition: all 0.3s ease;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --primary-color: rgb(67, 135, 54);
-    --food-color: yellow;
-    --stage-color: green;
-    --secondary-color: rgb(11, 19, 13);
-    --text-color: white;
 }
 
 header{
@@ -122,12 +127,22 @@ button.explor:hover{
     cursor: pointer;
 }
 
-/* Know Section  */
-.grid{
-    display: flex;
+/* Dishes section  */
+
+.dishes-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
-.sense img{
-    width: 70%;
-    height: auto;
+.dishes-card{
+    background: var(--secondary-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.dishes-card:hover{
+    transform: translateY(-10px);
 }
