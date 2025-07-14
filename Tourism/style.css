@@ -191,3 +191,29 @@ button.explor:hover{
     font-family: sans-serif;
     color: var(--bg-color);
 }
+
+div.cont{
+    padding: 20px;
+    background: var(--secondary-color);
+}
+
+.footer-links{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links h4{
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--bg-color);
+}
+
+.footer-links a{
+    justify-items: space-between;
+    color: var(--bg-color);
+}
+
+.footer-links a:hover{
+    color: blue;
+    transition: all 0.2s ease;
+}
