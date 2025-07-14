@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
+    --primary-color: #b5d2e5;
+    --secondary-color: rgb(170, 195, 169);
     --card-color: #98ca71;
     --bg-color: #fff;
     --text-color: #333;
@@ -216,4 +216,29 @@ footer{
     color: rgb(77, 179, 87);
     transition: all 0.2s ease;
     transform: translateY(-20px);
+}
+
+section.whyus{
+    background: var(--secondary-color);
+}
+
+.whi{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.whi-text{
+    flex: 1;
+}
+
+.whi-image{
+    flex: 1;
+    text-align: center;
+}
+
+.whi-image img{
+    width: 100%;
+    /* max-width: 300px; */
+    border-radius: 10px;
 }
