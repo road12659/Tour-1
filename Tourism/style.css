@@ -5,7 +5,7 @@
     --bg-color: #fff;
     --text-color: #333;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0,1);
-    transition: all 0.3s ease;
+    --transition: all 0.3s ease;
 }
 
 *{
@@ -192,28 +192,28 @@ button.explor:hover{
     color: var(--bg-color);
 }
 
-div.cont{
-    padding: 20px;
-    background: var(--secondary-color);
-}
-
-.footer-links{
-    justify-content: center;
-    align-items: center;
+/* Footer styling  */
+footer{
+    background: var(--text-color);
+    padding: 30px;
+    text-align: center;
 }
 
 .footer-links h4{
+    margin-bottom: 15px;
     font-family: sans-serif;
-    text-align: center;
     color: var(--bg-color);
 }
 
 .footer-links a{
-    justify-items: space-between;
+    font-size: 1.2rem;
+    margin: 0 10px;
     color: var(--bg-color);
+    transition: var(--transition);
 }
 
 .footer-links a:hover{
-    color: blue;
+    color: rgb(77, 179, 87);
     transition: all 0.2s ease;
+    transform: translateY(-20px);
 }
