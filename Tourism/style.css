@@ -139,10 +139,12 @@ button.explor:hover{
 }
 
 .section-title{
+    font-family: Arial;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
     font-size: 2.5rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
     position: relative;
 }
 
@@ -238,6 +240,9 @@ section.display{
 }
 
 .display h2{
+    margin-top: 30px;
+    color: #333;
+    padding: 50px;
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -258,7 +263,6 @@ section.display{
 }
 
 .play-img:hover{
-    /* scale: 1.1; */
     cursor: pointer;
     transform: translateY(-10px);
 }
