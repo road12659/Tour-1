@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 section.about{
@@ -17,6 +18,15 @@ section.about{
     align-items: flex-start;
     position: relative;
     overflow: hidden;
+}
+
+section.abotus{
+    text-align: center;
+    padding: 10px;
+}
+
+.abotus h1{
+    text-transform: capitalize;
 }
 
 .about h1{
